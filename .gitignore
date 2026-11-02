@@ -1,0 +1,18 @@
+# Rapports HTML produits par l'outil
+*.html
+
+# Journaux
+*.log
+
+# Secrets et configuration locale
+*.clixml
+secrets.ps1
+.env
+
+# Artefacts de test Pester
+testResults*.xml
+coverage*.xml
+
+# Dossiers d'outils
+.vs/
+output/
